@@ -1,0 +1,47 @@
+body {
+  min-width: 300px;
+
+  background: url("https://images.unsplash.com/photo-1512719994953-eabf50895df7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y3JpY2tldHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+}
+header {
+  text-align: center;
+  color: white;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 20px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+
+  width: 90%;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  margin-bottom: 20px;
+}
+.score {
+  margin-top: -10px;
+  font-weight: bold;
+}
+#matchstatus {
+  text-transform: capitalize;
+  font-weight: bold;
+  margin-bottom: -5px;
+  text-align: center;
+}
+#matchVenue {
+  font-weight: bold;
+  text-align: center;
+  font-size: 9px;
+}

@@ -1,0 +1,11 @@
+{
+  "name": "IPL_Match_Detail_Extension",
+  "version": "1.0.0",
+  "description": "Its a Chrome Extension that gives you the data of IPL Matches",
+  "manifest_version": 3,
+  "author": "Harsh Agarwal",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "IPL Data Fetcher"
+  }
+}
